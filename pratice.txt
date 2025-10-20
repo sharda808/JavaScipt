@@ -1,0 +1,4 @@
+Hi everyone
+we are laering file I/O
+using python.
+I like pragramming python.

@@ -1,0 +1,40 @@
+*{
+    margin:0;
+    padding:0;
+  font-family:Assistant,-apple-system,BlinMacSystemFont,'Segoe UI',
+Robto,Helvetica,Arial,sans-serif;
+
+}
+header{
+    display:flex;
+  background-color: peachpuff;  
+  height:80px;
+  justify-content: space-between;
+}
+.logo_conatiner {
+    margin-left:4%;
+}
+.action_bar {
+    margin-right:4%;
+}
+.nav_bar {
+    display:flex;
+    min-width: 500px;
+    justify-content: space-between;
+}
+.nav_bar a {
+    font-size:14px;
+    letter-spacing: .3px;
+    color:#282c3f;
+font-weight:500;
+text-transform: uppercase;
+text-decoration: none;
+}
+.nav_bar a sup {
+    color:red;
+    font-size:10px;
+}
+.search_input {
+    color:#696e79;
+    background-color: #f5f5f6;
+}

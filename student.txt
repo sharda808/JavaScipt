@@ -1,0 +1,3 @@
+student name:sharda
+student age :20
+student cgpa:7.200000

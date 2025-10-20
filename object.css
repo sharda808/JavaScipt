@@ -1,0 +1,33 @@
+Body{
+    text-align:center;
+}
+#heading{
+    color:cadetblue;
+}
+#Bat{
+   height:40px;
+   width:80px;
+   border:2px solid black;
+   border-radius:5px;
+    background-color: rgb(171, 187, 147);
+   
+}
+#Bat:hover{
+  
+    width:80px;
+    border:1px solid red;
+}
+#Ball{
+    height:40px;
+    width:80px;
+    border:2px solid black;
+    border-radius:5px;
+    background-color: aquamarine;
+}
+#stump{
+    height:40px;
+    width:80px;
+    border:2px solid black;
+border-radius:5px;
+    background-color: pink;
+}

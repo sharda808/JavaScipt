@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cricket game</title>
+    <link rel="stylesheet" href="object.css">
+</head>
+<body>
+      
+    <h1 id ="heading">Bat Ball stump Game</h1>
+    <button id ="Bat" onclick="
+    let computerChoice = generateComputerChoice();
+    let resultMsg = getResult('Bat',ComputerChoice);
+    showResult('Bat', ComputerChoice, resultMsg);
+    ">🏏Bat</button>
+
+    <button id ="Ball"  onclick="
+     computerChoice = generateComputerChoice();
+     resultMsg = getResult('Ball',ComputerChoice);
+    showResult('Ball', ComputerChoice,resultMsg);
+    ">🏏Ball</button>
+    
+    <button id ="stump" onclick="
+     computerChoice = generateComputerChoice();
+     resultMsg = getResult('Stump',ComputerChoice);
+    showResult('stump', ComputerChoice,resultMsg);
+    ">🏏Stump</button> 
+
+  
+    
+    
+    
+</body>
+</html>

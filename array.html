@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>learing js</title>
+</head>
+<body>
+ <p>click the button to display what day it is today</p>
+<button onclick="myFunction()">click me</button>  
+ <p id ="demo"></p>
+ <script>
+ function myFunction(){
+    var x;
+ var d = new Date().getDay();
+ switch(d) {
+ case 0:
+x = "Today is sunday";
+break;
+case 1:
+    x ="Today is monday";
+    break;
+case 2:
+    x = "Today is tuesday";
+break;
+    
+   case 4:
+    x = "Today is thursday";
+    break;  
+    case 5:
+        x = "Today is friday";
+        break;
+        case 6:
+       x = "Today is saturday"; 
+       break;      
+    }
+document.getElementById("demo").innerHTML = x;
+    }
+ </script>
+</body>
+</html>

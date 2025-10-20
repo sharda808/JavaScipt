@@ -1,0 +1,21 @@
+let product = {
+  size:'S',
+  name:'Jeans',
+  fit:'Slim Fit',
+'delivery-time':'same day delivery',
+};
+// let copyProduct = product;
+// console.log(product);
+// copyProduct.size ='M'
+// console.log(product);
+// copyProduct.fit = 'Regular Fit';
+// console.log(product);
+console.log(product['delivery-time']);
+let obj =  {
+  message:'Good Job',
+  status:'Complete',
+};
+console.log(obj);
+let {message,status} = obj;
+console.log(message);
+console.log(status);

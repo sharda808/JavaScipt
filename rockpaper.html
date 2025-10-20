@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock paper scirssor</title>
+    <link rel = "stylesheet" href="rockpaper.css">
+</head>
+<body>
+    <h1>Rock paper Scissor game</h1>
+    <p>click one of the following to play the game:</p>
+   
+    <button class="choice-button"  onclick=" 
+    let computerChoice = Math.floor(Math.random()*3+1);
+    let computerChoiceText;
+if(computerChoice===1){
+    computerChoiceText = `👊rock`;
+}
+else if(computerChoice===2){
+    computerChoiceText = `✋paper`;
+}
+else{
+    computerChoiceText = ` ✌️Scissors';
+}
+    document.querySelector('#result').innerHTML =`You chose 👊rock.<br>
+    I chose 
+   
+   
+    ">👊Rock</button>
+   
+    <button class="choice-button" onclick="document.querySelector('#result')
+    .innerHTML = 'You chose ✋paper'
+    "
+    
+    >✋Paper</button>
+    <button class="choice-button" onclick="document.querySelector('#result')
+    .innerHTML = 'You chose ✌️Scissors'
+    "
+    
+    >✌️Scissors</button>
+    <h4 id ="result"></h4>
+</body>
+</html>

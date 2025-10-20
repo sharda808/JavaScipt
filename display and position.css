@@ -1,0 +1,29 @@
+*{margin:0; padding:0;}
+header{
+    display:flex;
+    background-color: peachpuff;
+    height:60px;
+    justify-content:space-between;
+    align-items: center;
+    
+}
+.nav_bar{
+    display:flex;
+    min-width:500px;
+    justify-content: space-between;
+    
+}
+.nav_bar a{
+    font-size:14px;
+    letter-spacing: .3px;
+    color:#282c3f;
+    font-weight:700;
+    text-transform: uppercase;
+    text-decoration: none;
+
+}
+.nav_bar a sup{
+    color:#ff3f6c;
+    font-size:10px;
+
+
