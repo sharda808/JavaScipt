@@ -1,0 +1,14 @@
+.heading {
+  color: red;
+  position: relative;
+  animation: ghumakkad 4s ease-in-out;
+}
+
+@keyframes ghumakkad {
+  from {
+    left: 10px;
+  }
+  to {
+    left: 300px;
+  }
+}
