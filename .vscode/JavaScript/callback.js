@@ -1,6 +1,9 @@
-function hello(name) {
-  console.log('Hello ' + name);
+// function hello(name) {
+//   console.log('Hello ' + name);
 
+// }
+let hello = function(name) {
+  console.log('Hello ' + name);
 }
 function capitalize(name){
   let upper = name.toUpperCase();
